@@ -44,7 +44,7 @@ public class MyFunction {
 
     public static void main(String[] args) {
         //call some functions
-        System.out.println(decimalToBinary(201));
-        System.out.println(binaryToDecimal("101100101100101"));
+        System.out.println(decimalToBinary(8)); //11001001
+        System.out.println(binaryToDecimal("1000"));
     }
 }

@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Hashtable;
+
 public class Main {
     public static void main(String[] args) {
         
@@ -15,12 +19,13 @@ public class Main {
         Table girlsTable1 = new Table(2);
         Table girlsTable2 = new Table(2);
 
+        System.out.println(mathematicsRoom.getTablesCount()); // enne laudade lisamist
+
         mathematicsRoom.addTables(boysTable1);
         mathematicsRoom.addTables(boysTable2);
         mathematicsRoom.addTables(girlsTable1);
-        mathematicsRoom.addTables(girlsTable2);
 
-        System.out.println(mathematicsRoom.getTablesCount());
+        System.out.println(mathematicsRoom.getTablesCount()); // peale laudade lisamist
         System.out.println(mathematicsRoom.getRoom());
 
         mathematicsRoom.getTable().addStudentToSit(mark);
@@ -33,7 +38,10 @@ public class Main {
         mathematicsRoom.getTable().addStudentToSit(josh); //can sit now
 
         mathematicsRoom.printStudents();
-        
+
+       
+
+
     }
     
 }
