@@ -3,7 +3,6 @@ import java.util.HashSet;
 public class Homework {
     //**1) Ette antud stringist vaja üles lugeda kõikide tähtede esinemine*/
 
-
     String word;
     HashSet<Character> characters;
     public Homework(String word) {
@@ -39,6 +38,7 @@ public class Homework {
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             characters.add(c);
+            
         }
 
     }
