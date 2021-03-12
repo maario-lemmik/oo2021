@@ -35,5 +35,7 @@ public class Main {
         System.out.println();
         //EXERCISE 3
         FileWithA fwa = new FileWithA("text.txt");
+
+        
     }
 }

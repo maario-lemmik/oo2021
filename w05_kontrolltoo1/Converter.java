@@ -7,6 +7,7 @@ public class Converter {
     * Luua klass, kus oleksid funktsioonid teisendada arv kümnendsüsteemist kahendsüsteemi, kaheksandsüsteemi, kuueteistkümnendsüsteemi
     * Samuti tagasi nendest
     * Omavahel ka nt kümnendsüsteemist kuueteistkümnendsüsteemi, kaheksandsüsteemist kümnendsüsteemi jne (kõik seosed)
+    *
     */
     HashMap<Character, Integer> hexSymbols;
     HashMap<Integer, Character> hexNumbers;

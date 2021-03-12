@@ -9,6 +9,7 @@ public class FileWithA {
     * Leia, kui palju oli a-tähti igas sõnas, sõnades keskmiselt, suhtarvuna tähtede üldarvu
     * Loe kokku, mitu sõna oli ühe, kahe, kolme jne a-tähega. Koosta tabel, kus ridadeks tähtede arv sõnas ning 
     * veergudeks a-tähtede arv. Lahtris näidatakse, mitu vastavat sõna oli tekstis.
+    *
     */
     BufferedReader br;
     String filename;

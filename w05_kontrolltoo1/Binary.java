@@ -4,7 +4,7 @@ public class Binary {
     * Teata, kas sisestatud neljakohaline arv koosneb vaid ühtedest ja nullidest.
     * Kui tingimus on tõene, väljasta selle kahendsüsteemi arvu väärtus kümnendsüsteemis.
     * Võrreldes eelmisega võib sisestatud kahendsüsteemi arv olla kuni kümnekohaline. 
-    *Eraldi kuvatase välja, millisele väärtusele iga "üks" selles arvus vastab.  
+    * Eraldi kuvatase välja, millisele väärtusele iga "üks" selles arvus vastab.  
     */
     
     public boolean bin(int number) {
